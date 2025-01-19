@@ -1,9 +1,9 @@
 # Driver-Drowsiness-Detection-System
 
-# Overview
+**Overview**
 The Driver Drowsiness Detection System is designed to enhance road safety by monitoring the driver's eye and mouth movements to detect signs of drowsiness. The system alerts the driver with an alarm sound when drowsiness is detected and logs the incident in a MySQL database. Additionally, the Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR) values are plotted to visualize the driver's alertness levels over time.
 
-Features
+**Features**
 CNN Model: A Convolutional Neural Network (CNN) model has been developed for feature extraction from the driver's face, focusing on the eyes and mouth regions.
 
 Facial Landmarks: The system utilizes the dlib library for computer vision applications and Haar-cascade files for detecting facial landmarks.
@@ -14,10 +14,10 @@ Data Visualization: EAR (Eye Aspect Ratio) and MAR (Mouth Aspect Ratio) values a
 
 Alarm Sound: When a certain threshold for EAR or MAR is met, an alarm sound is triggered to alert the driver.
 
-Dataset
+**Dataset**
 The dataset used for training and testing the system can be found at the following link:
 
-How It Works
+**How It Works**
 
 Feature Extraction: The CNN model extracts features from the driver's face, specifically focusing on the eyes and mouth.
 
@@ -28,4 +28,5 @@ EAR and MAR Calculation: The system calculates the Eye Aspect Ratio (EAR) and Mo
 Drowsiness Detection: If the EAR falls below a certain threshold or the MAR exceeds a certain threshold, an alarm sound is triggered.
 
 Database Logging: The timestamps of drowsiness events are stored in a MySQL database.
+
 Data Visualization: The EAR and MAR values are plotted to analyze the driver's drowsiness levels.
