@@ -1,4 +1,4 @@
-# 🚗 Driver Drowsiness Detection System  
+# Driver Drowsiness Detection System  
 
 ## 📝 Overview  
 The Driver Drowsiness Detection System is designed to enhance road safety by monitoring the driver's eye and mouth movements to detect signs of drowsiness. The system alerts the driver with an alarm sound 🔔 when drowsiness is detected and logs the incident in a MySQL database 💾. Additionally, the **Eye Aspect Ratio (EAR)** and **Mouth Aspect Ratio (MAR)** values are plotted 📊 to visualize the driver's alertness levels over time.
